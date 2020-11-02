@@ -23,9 +23,8 @@ def analog_map(lst):
 lst = [ 1, 2, 3, 4, 5]
 analog_map(lst)
 
-##########
+
 print('next analog')
-##########
 
 
 def analog_zip(names, age, sex):
