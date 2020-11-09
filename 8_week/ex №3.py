@@ -4,8 +4,8 @@ import itertools
 def get_combinations(s, n):
     arr = []
     for i in range(1, n+1):
-        for item in itertools.combinations(s, i):
-            arr.append(''.join(item))
+        for k in itertools.combinations(s, i):
+            arr.append(''.join(k))
     arr.sort()
     return arr
 
