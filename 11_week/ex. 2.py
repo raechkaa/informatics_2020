@@ -1,3 +1,4 @@
+import time
 import asyncio
 from concurrent.futures import FIRST_COMPLETED
 from collections import namedtuple
