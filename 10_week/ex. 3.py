@@ -8,9 +8,9 @@ def thread_job(b):
 
 
 n = int(input())
-a = []
 result = 0
 start = time.time()
+a = []
 for i in range(n):
     a.append(i)
 print(a)
